@@ -8,9 +8,9 @@
 	$date_debut=date("Y/m/d H:i:s", $date_debut);
 
 	$query  = "INSERT INTO lien (libelle, url, description) VALUES (";
-	$query .= "'". $_POST["libelle"] ."' " ;
-	$query .= ", '". $_POST["url"] ."' " ;
-	$query .= ", '". $_POST["description"] ."' " ;
+	$query .= "'". addslashes($_POST["libelle"]) ."' " ;
+	$query .= ", '". addslashes($_POST["url"]) ."' " ;
+	$query .= ", '". addslashes($_POST["description"]) ."' " ;
 	$query .= ")";
 	//echo $query ."<br>";
 	$rstemp = mysql_query($query);

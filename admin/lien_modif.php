@@ -129,9 +129,9 @@ function est_mail(chaine){
                       <tr> 
                         <td id="texte2b">libelle (tourisme, camping, hotel-resto, chambre-hote, gastronomie, chateauviti, transport):<br> <br> 
                           	<?
-								$libelle = htmlspecialchars($libelle);
+								//$libelle = htmlspecialchars($libelle);
 							?>
-                          <textarea cols="80" rows="1" name="libelle" wrap="soft"><? echo htmlspecialchars($libelle) ?></textarea> 
+                          <textarea cols="80" rows="1" name="libelle" wrap="soft"><? echo $libelle ?></textarea> 
                         </td>
                       </tr>
                     </table></td>
@@ -142,9 +142,9 @@ function est_mail(chaine){
                       <tr> 
                         <td id="texte2b">url:<br> <br> 
                           	<?
-								$url = htmlspecialchars($url);
+								//$url = htmlspecialchars($url);
 							?>
-                          <textarea cols="80" rows="1" name="url" wrap="soft"><? echo htmlspecialchars($url) ?></textarea> 
+                          <textarea cols="80" rows="1" name="url" wrap="soft"><? echo $url ?></textarea> 
                         </td>
                       </tr>
                     </table></td>
@@ -155,9 +155,9 @@ function est_mail(chaine){
                       <tr> 
                         <td id="texte2b">Description:<br> <br> 
                           	<?
-								$description = htmlspecialchars($description);
+								//$description = htmlspecialchars($description);
 							?>
-                          <textarea cols="80" rows="5" name="description" wrap="soft"><? echo htmlspecialchars($description) ?></textarea> 
+                          <textarea cols="80" rows="5" name="description" wrap="soft"><? echo $description ?></textarea> 
                         </td>
                       </tr>
                     </table></td>
@@ -172,7 +172,7 @@ function est_mail(chaine){
             	<td> 
 					<table width="100%" border="0" cellpadding="0" cellspacing="0">
                 	<tr> 
-                  		<td align="center"> <input type="button" value="retour à la liste" onclick="javascript:document.location.href='lien_liste.php'"> </td>
+                  		<td align="center"> <input type="button" value="retour Ã  la liste" onclick="javascript:document.location.href='lien_liste.php'"> </td>
                   		<td align="center"> <input type="submit" name="vvv" value="Valider"> 
                   		</td>
                 	</tr>

@@ -6,7 +6,7 @@
 <html>
 <head>
 <title>cts</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html;">
 <link href="../include/styles_admin.css" rel="stylesheet" type="text/css">
 <script language="JavaScript" type="text/JavaScript">
 <!--
@@ -54,7 +54,7 @@ function MM_swapImage() { //v3.0
 			<table width="100%" border="0" cellspacing="0" cellpadding="5">
 	        <tr align="center" > 
 				<td class="affichageT" align="left">&nbsp;</td>
-	          	<td class="affichageT" align="left"><a class="affichageT" href="news_liste.php?ordre=id_news">n°</a></td>
+	          	<td class="affichageT" align="left"><a class="affichageT" href="news_liste.php?ordre=id_news">nÂ°</a></td>
 			  	<td class="affichageT" align="left"><a class="affichageT" href="news_liste.php?ordre=date_news">date</a></td>
 				<td class="affichageT" align="left"><a class="affichageT" href="news_liste.php?ordre=description">description</a></td>
 			  	<td class="affichageT" align="left">&nbsp;</td>
@@ -72,7 +72,7 @@ function MM_swapImage() { //v3.0
 	          	<td class="<? echo $class_ch?>" align="left"><? echo $row["id_news"]?></td>
 			  	<td class="<? echo $class_ch?>" align="left"><b><? echo format_date_ss_heure($row["date_news"])?></b></td>
 			   	<td class="<? echo $class_ch?>" align="left"><b><? echo $row["description"]?></b></td>
-			  	<td class="<? echo $class_ch?>" align="left"><a href="news_suppr.php?id_news=<? echo $row["id_news"]?>" onclick="return confirm('êtes-vous sûr de vouloir supprimer la news <? echo $row["id_news"] ?> ?')"><img src="supprimer_off.gif" alt="" width="13" height="13" border="0"></a></td>
+			  	<td class="<? echo $class_ch?>" align="left"><a href="news_suppr.php?id_news=<? echo $row["id_news"]?>" onclick="return confirm('Ãªtes-vous sÃ»r de vouloir supprimer la news <? echo $row["id_news"] ?> ?')"><img src="supprimer_off.gif" alt="" width="13" height="13" border="0"></a></td>
 	        </tr>
 				<? $cc++ ?>	
 			<? }?>

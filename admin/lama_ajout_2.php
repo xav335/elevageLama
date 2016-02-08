@@ -9,7 +9,7 @@
 
 	$query  = "INSERT INTO lama (date_lama, description) VALUES (";
 	$query .= "'  ". $date_debut ."' " ;
-	$query .= ", '". $_POST["description"] ."' " ;
+	$query .= ", '". addslashes($_POST["description"]) ."' " ;
 	$query .= ")";
 	//echo $query ."<br>";
 	$rstemp = mysql_query($query);

@@ -9,9 +9,9 @@
 	$date_debut=date("Y/m/d H:i:s", $date_debut);
 	
 	$query  = "UPDATE lien ";
-	$query .= "Set libelle='". $_POST["libelle"] ."' " ;
-	$query .= ", url='". $_POST["url"] ."' " ;
-	$query .= ", description='". $_POST["description"] ."' " ;
+	$query .= "Set libelle='". addslashes($_POST["libelle"]) ."' " ;
+	$query .= ", url='". addslashes($_POST["url"]) ."' " ;
+	$query .= ", description='". addslashes($_POST["description"]) ."' " ;
 	$query .= " WHERE id_lien=". $_POST["id_lien"];
 	//echo $query ."<br>";
 	$rstemp = mysql_query($query);
