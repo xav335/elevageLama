@@ -35,7 +35,7 @@
                             <td width="167" height="183" align="left" valign="top">&nbsp;</td>
                           </tr>
                           <tr> 
-                            <td height="25" align="left" valign="top" id="texte2_rouge">Gestion Actualit�s</td>
+                            <td height="25" align="left" valign="top" id="texte2_rouge">Gestion Actualités</td>
                           </tr>
                           <tr> 
                             <td height="25" align="left" valign="top"> <ilayer id="layerMenu0"> 
@@ -126,7 +126,7 @@
       </table></td>
 </tr>
 </table>
-<!-- PARTIE N�2 "script" DU MENU BRATTA -->
+<!-- PARTIE Nï¿½2 "script" DU MENU BRATTA -->
 <SCRIPT>
 /*** 
 This is the menu creation code - place it right after you body tag
@@ -213,7 +213,7 @@ Menu item creation:
 myCoolMenu.makeMenu(name, parent_name, text, link, target, width, height, regImage, overImage, regClass, overClass , align, rows, nolink, onclick, onmouseover, onmouseout) 
 **************************************/
 
-oCMenu.makeMenu('top0','','<span ID="crochet_menu">[</span>&nbsp;Actualit�s','','produit','150','19','','','','','bottom')	
+oCMenu.makeMenu('top0','','<span ID="crochet_menu">[</span>&nbsp;Actualités','','produit','150','19','','','','','bottom')	
 	oCMenu.makeMenu('sub00','top0','&nbsp;ajouter une actu','<?=$chemin?>admin/news_ajout.php','produit','146')
 	oCMenu.makeMenu('sub01','top0','&nbsp;modifier/supprimer','<?=$chemin?>admin/news_liste.php','produit','146')
 	
@@ -221,7 +221,7 @@ oCMenu.makeMenu('top1','','<span ID="crochet_menu">[</span>&nbsp;Image','','_top
 	oCMenu.makeMenu('sub10','top1','&nbsp;ajouter/modifier/supprimer','<?=$chemin?>admin/media_liste_news.php','produit','146')
   		
 oCMenu.makeMenu('top2','','<span ID="crochet_menu">[</span>&nbsp;Lamas','','produit','150','19','','','','','bottom')	
-	oCMenu.makeMenu('sub20','top2','&nbsp;Cr�er une fiche','<?=$chemin?>admin/lama_ajout.php','produit','146')
+	oCMenu.makeMenu('sub20','top2','&nbsp;Créer une fiche','<?=$chemin?>admin/lama_ajout.php','produit','146')
 	oCMenu.makeMenu('sub21','top2','&nbsp;modifier/supprimer','<?=$chemin?>admin/lama_liste.php','produit','146')
 	
 oCMenu.makeMenu('top3','','<span ID="crochet_menu">[</span>&nbsp;Image','','_top','150','19','','')	
@@ -278,6 +278,6 @@ function placeElements(){
 placeElements()
 //Setting it to re place the elements after resize - the resize is not perfect though..
 oCMenu.onafterresize="placeElements()"
-</SCRIPT><!-- PARTIE N�2 "script" DU MENU BRATTA -->
+</SCRIPT><!-- PARTIE Nï¿½2 "script" DU MENU BRATTA -->
 </body>
 </html>

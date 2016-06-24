@@ -16,19 +16,20 @@ else
 
 
 $mail->To ("planteur.joel@orange.fr");
+//$mail->To ("fjavi.gonzalez@gmail.com");
 $mail->Bcc ("admin@iconeo.fr");
 $demande = "contact";
 
 
 
-$mail->Subject("Contact site");
+$mail->Subject("Contact site Brandacot");
 
 $message="";
 $message="Vous avez un message sur votre site ...\n\n";
 
 if ($_POST["nom"] != "")
 {
-	$message=$message."Question posée par ".$_POST["nom"]."\n\n";
+	$message=$message."Question posÃ©e par ".$_POST["nom"]."\n\n";
 }
 
 if ($_POST["email"] != "")
@@ -38,7 +39,7 @@ if ($_POST["email"] != "")
 
 if ($_POST["tel"] != "")
 {
-	$message=$message."Téléphone : ".$_POST["tel"]."\n\n";
+	$message=$message."TÃ©lÃ©phone : ".$_POST["tel"]."\n\n";
 }
 
 

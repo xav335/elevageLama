@@ -10,7 +10,7 @@
 	
 	$query  = "UPDATE lama ";
 	$query .= "Set date_lama='". $date_debut ."' " ;
-	$query .= ", description='". $_POST["description"] ."' " ;
+	$query .= ", description='". addslashes($_POST["description"]) ."' " ;
 	$query .= " WHERE id_lama=". $_POST["id_lama"];
 	//echo $query ."<br>";
 	$rstemp = mysql_query($query);

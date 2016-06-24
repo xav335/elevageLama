@@ -208,7 +208,7 @@ function est_mail(chaine){
             	<td> 
 					<table width="100%" border="0" cellpadding="0" cellspacing="0">
                 	<tr> 
-                  		<td align="center"> <input type="button" value="retour à la liste" onclick="javascript:document.location.href='lama_liste.php'"> </td>
+                  		<td align="center"> <input type="button" value="retour Ã  la liste" onclick="javascript:document.location.href='lama_liste.php'"> </td>
                   		<td align="center"> <input type="submit" name="vvv" value="Valider"> 
                   		</td>
                 	</tr>

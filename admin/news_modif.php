@@ -192,9 +192,9 @@ function est_mail(chaine){
                         <td id="texte2b">Description:<br> <br> 
                           	<?
 								//$description = str_replace("\'","'",$description);
-								$description = htmlspecialchars($description);
+								//$description = htmlspecialchars($description);
 							?>
-                          <textarea cols="80" rows="7" name="description" wrap="soft"><? echo htmlspecialchars($description) ?></textarea> 
+                          <textarea cols="80" rows="7" name="description" wrap="soft"><? echo $description ?></textarea> 
                         </td>
                       </tr>
                     </table></td>
@@ -208,7 +208,7 @@ function est_mail(chaine){
             	<td> 
 					<table width="100%" border="0" cellpadding="0" cellspacing="0">
                 	<tr> 
-                  		<td align="center"> <input type="button" value="retour à la liste" onclick="javascript:document.location.href='news_liste.php'"> </td>
+                  		<td align="center"> <input type="button" value="retour Ã  la liste" onclick="javascript:document.location.href='news_liste.php'"> </td>
                   		<td align="center"> <input type="submit" name="vvv" value="Valider"> 
                   		</td>
                 	</tr>
